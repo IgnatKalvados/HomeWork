@@ -1,0 +1,22 @@
+
+.cat {
+    margin: 100px;
+    background-color: darkgray;
+    display: inline-block;
+    border: 2px solid gray;
+    text-align: center;
+}
+.dog {
+    margin: 100px;
+    background-color: darkgray;
+    display: inline-block;
+    border: 2px solid gray;
+    text-align: center;
+}
+.flowers {
+    margin: 100px;
+    background-color: darkgray;
+    display: inline-block;
+    border: 2px solid gray;
+    text-align: center;
+}

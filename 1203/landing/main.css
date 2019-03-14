@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
 .one {
   background-image: url("./images/Background-Image.png");  
   width: 100%;
@@ -55,7 +59,7 @@
     font-size: 1.1em;
 }.me {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 a {
     text-decoration: none;

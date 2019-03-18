@@ -29,11 +29,14 @@ display: flex;
     border: 1px solid grey;
     width: 1000px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+   
     
 }
 .news1 {
-    margin: 50px;
     text-align: left;
+    border: 0.5PX solid GREY;
 }
 .two {
 flex-direction: column;

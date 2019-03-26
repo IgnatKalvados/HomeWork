@@ -9,31 +9,43 @@ a {
     margin-right: 50px;
 }
 .container {
-    width: 950px;
+    max-width: 950px;
     margin: 0 auto;
     padding: 0 20px;
+}
+.test1 {
+    display: flex;
+    justify-content: space-between;
 }
 header {
     height: 875px;
     background: url(./images/Rectangle.png)
 }
 .head {
-    display: flex;
-    justify-content: space-between;
+    
     padding-top: 50px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 40px;
 }
 nav {
     display: flex;
     text-transform: uppercase; 
 }
 .line {
+    
+    margin-top: 20px;
+    height: 2px; 
+    background-color: #E0E0E0;
+    width: 100%; 
+}
+/*.line {
 position: absolute;
 width: 1200px;
 height: 0px;
 left: 52px;
 top: 93px;
 border: 1px solid rgba(255, 255, 255, 0.3);
-}
+}*/
 .hdr {
     display: flex;
     flex-direction: row;
@@ -43,7 +55,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 display: flex;
 flex-direction: column;
 width: 580px;
-padding-top: 200px;
+padding-top: 150px;
 }
 .online h1 {
 font-family: Gotham Pro;
@@ -79,7 +91,7 @@ margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-top: 250px;
+    padding-top: 200px;
 }
 .procode img {
    margin-bottom: 15px;

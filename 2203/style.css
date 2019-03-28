@@ -38,14 +38,6 @@ nav {
     background-color: #E0E0E0;
     width: 100%; 
 }
-/*.line {
-position: absolute;
-width: 1200px;
-height: 0px;
-left: 52px;
-top: 93px;
-border: 1px solid rgba(255, 255, 255, 0.3);
-}*/
 .hdr {
     display: flex;
     flex-direction: row;
@@ -76,7 +68,7 @@ margin-bottom: 30px;
     color: #FFFFFF;
     margin-bottom: 30px;
 }
-.online p {
+/*.online p {
     display: flex;
     width: 266px;
     height: 59px;
@@ -85,6 +77,16 @@ margin-bottom: 30px;
     text-transform: uppercase;
     align-items: center;
     color: #333333;
+    padding-left: 10px;
+}*/
+a.but {
+    background: #FED233;
+    height: 59px;
+    width: 266px;
+    border-radius: 7px;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 14px;
     padding-left: 10px;
 }
 .procode {

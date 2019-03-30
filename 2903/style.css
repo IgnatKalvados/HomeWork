@@ -1,0 +1,20 @@
+.parent {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.child{
+    height: 100px;
+    width: 49%;
+    border: 1px solid grey;
+}
+.child:first-child {
+height: 200px;
+}
+.child:last-child {
+background: deepskyblue;
+}
+.child:nth-child(2){
+    height: 200px;
+}

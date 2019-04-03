@@ -163,6 +163,7 @@ a.but {
 }
 .bloc {
     width: 300px;
+    margin-bottom: 5px;
 }
 .bloc h4 {
     font-family: Gotham Pro;
@@ -236,7 +237,7 @@ label {
 .tech_block {
     width: 300px;
     height: 200px;
-    
+    margin-bottom: 5px;
 }
 .tech_block h4 {
 font-size: 22px;

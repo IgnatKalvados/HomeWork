@@ -1,0 +1,74 @@
+
+a {
+    text-decoration: nono;
+    color: inherit;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+}
+.head h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.head h1::before {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 25%;
+    background-color: aqua;
+    margin-right: 20px;
+}
+.head h1::after {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 25%;
+    background-color: aqua;
+    margin-left: 20px;
+}
+.head p {
+    padding: 0 50px 0 50px;
+} 
+.head p::before {
+justify-content: center;
+content: '';
+display: block;
+height: 50px;
+width: 100%;
+background-image:  url(./images/star.png);
+background-size: 30px;
+background-repeat: no-repeat;
+background-position: center;
+}
+.head p::after {
+    content: '';
+    justify-content: center;
+    display: block;
+    height: 50px;
+    width: 100;
+    background-image:  url(./images/star.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.head a::before {
+content: '';
+display: inline-block;
+height: 15px;
+width: 15px;
+background-repeat: no-repeat;
+background-image: url(./images/strl.png);
+background-size: 15px;
+}
+.blck {
+    font-size: 30px;
+}
+.blck::before {
+content: open-quote;
+}
+.blck::after {
+content: close-quote;
+}

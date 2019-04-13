@@ -1,6 +1,5 @@
 
 a {
-    text-decoration: nono;
     color: inherit;
 }
 .head {
@@ -12,7 +11,7 @@ a {
     justify-content: center;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
+  
 }
 .head h1::before {
     content: '';

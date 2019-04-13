@@ -10,8 +10,8 @@ body {
     
 }
 header {
-    height: 875px;
-    background: url(./images/Rectangle.png)
+    min-height: 875px;
+    background: url('./images/Rectangle.png');
 }
 .contacts a {
     text-decoration: none;
@@ -39,7 +39,7 @@ nav {
 .online {
     display: flex;
     flex-direction: column;
-    width: 580px;
+    max-width: 580px;
     padding-top: 150px;
 }
 .procode {
@@ -90,15 +90,15 @@ a.but {
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px   0px 20px;
 }
 .procode img {
     margin-bottom: 50px;
 }
 .services {
-    height: 950px;
+    min-height: 950px;
     background-color: #FFFFFF;
-    margin-bottom: 140px;
+    margin-bottom: 80px;
 }
 .two {
     display: flex;
@@ -106,6 +106,8 @@ a.but {
     flex-wrap: wrap;
     justify-content: space-between;  
     padding-top: 50px;  
+    
+    padding-bottom: 30px;
 }
 .slide  {
     width: 250px;
@@ -153,7 +155,7 @@ a.but {
     margin-right: 20px;
 }
 .about {
-    height: 570px;
+    min-height: 570px;
     background: #F9FAFC;    
 }
 .three {
@@ -180,7 +182,7 @@ a.but {
     color: #828282;
 }
 .form {
-    height: 600px;
+    min-height: 600px;
     background: url(./images/Rectangle.png) 
 }
 .form h2 {
@@ -217,7 +219,7 @@ label {
 }
 .tech {
     display: flex;
-    height: 700px;
+    min-height: 700px;
     background: #FFFFFF;
     margin-bottom: 140px;
 }
@@ -322,6 +324,7 @@ a.but2 {
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+    
     padding: 0px 20px 0px 20px;
 }
 .foot a {
@@ -329,4 +332,48 @@ a.but2 {
     text-decoration: none;
     color: #fff;
     margin-top: 15px;
+}
+@media screen and (max-width:700px) {
+.img2 {
+    display: none;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;    
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.contacts a {
+    margin: 5px;
+}
+.online {
+    padding-top: 20px;
+}
+.two {
+    height: auto;
+    justify-content: center;
+}
+.tech_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hdr {
+    flex-direction: column-reverse;
+}
+.procode {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 80px;
+}
+.bloc {
+    margin: 0 5px 0 5px;
+}
+.online {
+    padding-bottom: 35px;
+}
 }

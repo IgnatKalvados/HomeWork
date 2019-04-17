@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.child {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation-name: rotations, movement;
+          animation-name: rotations, movement;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes movement {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    left: 100px;
+    top: 0;
+  }
+  50% {
+    top: 100px;
+    left: 100px;
+  }
+  75% {
+    left: 0;
+    top: 100px;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+@keyframes movement {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    left: 100px;
+    top: 0;
+  }
+  50% {
+    top: 100px;
+    left: 100px;
+  }
+  75% {
+    left: 0;
+    top: 100px;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+@-webkit-keyframes rotations {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotations {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */

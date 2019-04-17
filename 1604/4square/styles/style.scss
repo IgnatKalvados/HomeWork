@@ -1,0 +1,25 @@
+
+.square {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation-name: first;
+    animation-duration: 2s;
+    
+
+}
+@keyframes first {
+    from {
+        width: 100px;
+        height: 100px;
+    }
+
+    to {
+        width: 0;
+        height: 100px;
+        animation-direction: alternate;
+    }
+}

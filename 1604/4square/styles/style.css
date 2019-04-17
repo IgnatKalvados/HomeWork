@@ -1,0 +1,39 @@
+.square {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  -webkit-animation-name: first;
+          animation-name: first;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes first {
+  from {
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    width: 0;
+    height: 100px;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+}
+
+@keyframes first {
+  from {
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    width: 0;
+    height: 100px;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+}
+/*# sourceMappingURL=style.css.map */

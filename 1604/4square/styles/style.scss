@@ -1,25 +1,80 @@
 
-.square {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    width: 100px;
-    height: 100px;
-    background-color: brown;
-    animation-name: first;
-    animation-duration: 2s;
-    
+.square { 
+   position: relative;
+    height: 200px;
+    width: 200px;
+    background: lightgreen;
 
+        div {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: first;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            }
 }
 @keyframes first {
-    from {
+    0% {
         width: 100px;
         height: 100px;
+        top: 0px;
+        left: 0px;
+        background:  red;
     }
 
-    to {
-        width: 0;
+    12% {
+        width: 1px;
         height: 100px;
-        animation-direction: alternate;
+        top: 0;
+        left: 100px;
+        background: red;
+    }
+    25% {
+        width: 100px;
+        height: 100px;
+        top: 0;
+        left: 100px;
+        background: greenyellow;
+    }
+    39% {
+        width: 100px;
+        height: 1px;
+        top: 100px;
+        left: 100px;
+        background: greenyellow;
+    }
+    52% {
+        width: 100px;
+        height: 100px;
+        top: 100px;
+        left: 100px;
+        background: rgb(64, 97, 248);
+    }
+    65% {
+        width: 1px;
+        height: 100px;
+        top: 100px;
+        left: 100px;
+        background: rgb(64, 97, 248);
+    }
+    77% {
+        width: 100px;
+        height: 100px;
+        top: 100px;
+        left: 0;
+        background: green;
+    }
+
+    91% {
+        width: 100px;
+        height: 1px;
+        top: 100px;
+        left: 0;
+        background: green;
     }
 }

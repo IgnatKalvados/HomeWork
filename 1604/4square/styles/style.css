@@ -1,39 +1,142 @@
 .square {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background: lightgreen;
+}
+
+.square div {
   position: absolute;
-  top: 40%;
-  left: 50%;
+  top: 0px;
+  left: 0px;
   width: 100px;
   height: 100px;
-  background-color: brown;
+  background-color: red;
   -webkit-animation-name: first;
           animation-name: first;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes first {
-  from {
+  0% {
     width: 100px;
     height: 100px;
+    top: 0px;
+    left: 0px;
+    background: red;
   }
-  to {
-    width: 0;
+  12% {
+    width: 1px;
     height: 100px;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
+    top: 0;
+    left: 100px;
+    background: red;
+  }
+  25% {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 100px;
+    background: greenyellow;
+  }
+  39% {
+    width: 100px;
+    height: 1px;
+    top: 100px;
+    left: 100px;
+    background: greenyellow;
+  }
+  52% {
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    background: #4061f8;
+  }
+  65% {
+    width: 1px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    background: #4061f8;
+  }
+  77% {
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 0;
+    background: green;
+  }
+  91% {
+    width: 100px;
+    height: 1px;
+    top: 100px;
+    left: 0;
+    background: green;
   }
 }
 
 @keyframes first {
-  from {
+  0% {
     width: 100px;
     height: 100px;
+    top: 0px;
+    left: 0px;
+    background: red;
   }
-  to {
-    width: 0;
+  12% {
+    width: 1px;
     height: 100px;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
+    top: 0;
+    left: 100px;
+    background: red;
+  }
+  25% {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 100px;
+    background: greenyellow;
+  }
+  39% {
+    width: 100px;
+    height: 1px;
+    top: 100px;
+    left: 100px;
+    background: greenyellow;
+  }
+  52% {
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    background: #4061f8;
+  }
+  65% {
+    width: 1px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    background: #4061f8;
+  }
+  77% {
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 0;
+    background: green;
+  }
+  91% {
+    width: 100px;
+    height: 1px;
+    top: 100px;
+    left: 0;
+    background: green;
   }
 }
 /*# sourceMappingURL=style.css.map */

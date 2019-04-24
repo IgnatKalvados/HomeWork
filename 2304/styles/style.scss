@@ -13,9 +13,11 @@
     "dd bb bb bb bb ee"
     "ff bb bb bb bb gg"
     "mm mm cc cc nn nn";
+
+    div {
+        border: 1px solid rgb(12, 12, 12);
     
-   
-        &:nth-child(1) {
+           &:nth-child(1) {
             grid-area: aa;
 
         }
@@ -57,7 +59,6 @@
 
         }
     
-        div {
-            border: 1px solid rgb(12, 12, 12);
+       
         }
 }

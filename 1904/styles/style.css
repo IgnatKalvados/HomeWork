@@ -1,0 +1,94 @@
+.parents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 500px;
+  width: 500px;
+  -webkit-perspective: 120px;
+          perspective: 120px;
+  margin: 100px;
+}
+
+.one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 120px;
+  min-width: 500px;
+}
+
+.one div {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  -webkit-transform: skew(30deg);
+          transform: skew(30deg);
+}
+
+.two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+  min-width: 500px;
+}
+
+.two :nth-child(1) {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  -webkit-transform: rotateY(30deg);
+          transform: rotateY(30deg);
+}
+
+.two :nth-child(2) {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  -webkit-transform: rotateY(-30deg);
+          transform: rotateY(-30deg);
+}
+
+.three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  min-width: 500px;
+}
+
+.three div {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  -webkit-transform: rotateX(30deg);
+          transform: rotateX(30deg);
+}
+/*# sourceMappingURL=style.css.map */

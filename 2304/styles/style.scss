@@ -6,13 +6,13 @@
 .father {    
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px 200px 200px 200px;
     grid-template-areas: 
     "aa bb bb bb bb cc"
     "dd bb bb bb bb ee"
     "ff bb bb bb bb gg"
-    "mm mm cc cc nn nn";
+    "mm mm kk kk nn nn";
 
     div {
         border: 1px solid rgb(12, 12, 12);
@@ -51,7 +51,7 @@
 
         }
         &:nth-child(9) {
-            grid-area: cc;
+            grid-area: kk;
 
         }
         &:nth-child(10) {
@@ -59,6 +59,18 @@
 
         }
     
-       
+         
         }
+    }
+@media (max-width: 480px) {
+    .father {
+    grid-gap: 5px;
+    grid-template-rows:  50px 50px 50px 50px 50px;
+    grid-template-areas: 
+    "bb bb bb bb bb bb"
+    "bb bb bb bb bb bb"
+    "bb bb bb bb bb bb"
+    "aa cc dd ee ff gg"
+    "mm mm kk kk nn nn";
+    }
 }

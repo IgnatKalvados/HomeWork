@@ -7,11 +7,11 @@
   display: -ms-grid;
   display: grid;
   grid-gap: 10px;
-  -ms-grid-columns: 200px 200px 200px 200px 200px 200px;
-      grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 200px 200px 200px 200px;
       grid-template-rows: 200px 200px 200px 200px;
-      grid-template-areas: "aa bb bb bb bb cc" "dd bb bb bb bb ee" "ff bb bb bb bb gg" "mm mm cc cc nn nn";
+      grid-template-areas: "aa bb bb bb bb cc" "dd bb bb bb bb ee" "ff bb bb bb bb gg" "mm mm kk kk nn nn";
 }
 
 .father div {
@@ -34,9 +34,7 @@
 
 .father div:nth-child(3) {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 4;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 4;
+  -ms-grid-column: 6;
   grid-area: cc;
 }
 
@@ -72,11 +70,10 @@
 }
 
 .father div:nth-child(9) {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 4;
+  -ms-grid-row: 4;
   -ms-grid-column: 3;
-  -ms-grid-column-span: 4;
-  grid-area: cc;
+  -ms-grid-column-span: 2;
+  grid-area: kk;
 }
 
 .father div:nth-child(10) {
@@ -84,5 +81,14 @@
   -ms-grid-column: 5;
   -ms-grid-column-span: 2;
   grid-area: nn;
+}
+
+@media (max-width: 480px) {
+  .father {
+    grid-gap: 5px;
+    -ms-grid-rows: 50px 50px 50px 50px 50px;
+        grid-template-rows: 50px 50px 50px 50px 50px;
+        grid-template-areas: "bb bb bb bb bb bb" "bb bb bb bb bb bb" "bb bb bb bb bb bb" "aa cc dd ee ff gg" "mm mm kk kk nn nn";
+  }
 }
 /*# sourceMappingURL=style.css.map */

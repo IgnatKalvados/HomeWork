@@ -1,0 +1,106 @@
+header {
+    display: grid;
+    grid-gap: 5px;
+    max-width: 1908px;
+    height: 100vh;
+    grid-template-columns: repeat(12 1fr);
+    grid-template-rows: repeat(5 1fr);
+    grid-template-areas: 
+    "a b b b b c c c c d d d"
+    "e f f f f f g g g h h h"
+    "i f f f f f g g g j j j"
+    "k l l l l l g g g m m m"
+    "n o o o o o p p p q q q"
+    "w o o o o o p p p s s s"
+    "t o o o o o p p p u u u";
+    
+    div {
+        border: 0.5px solid rgb(12, 12, 12);
+        &:nth-child(1) {
+            grid-area: a;
+        }
+        &:nth-child(2) {
+            grid-area: b;
+        }
+        &:nth-child(3) {
+            grid-area: c;
+        }
+        &:nth-child(4) {
+            grid-area: d;
+        }
+        &:nth-child(5) {
+            grid-area: e;
+        }
+        &:nth-child(6) {
+            grid-area: f;
+        }
+        &:nth-child(7) {
+            grid-area: g;
+        }
+        &:nth-child(8) {
+            grid-area: h;
+        }
+        &:nth-child(9) {
+            grid-area: i;
+        }
+        &:nth-child(10) {
+            grid-area: j;
+        }
+        &:nth-child(11) {
+            grid-area: k;
+        }
+        &:nth-child(12) {
+            grid-area: l;
+        }
+        &:nth-child(13) {
+            grid-area: m;
+        }
+        &:nth-child(14) {
+            grid-area: n;
+        }
+        &:nth-child(15) {
+            grid-area: o;
+        }
+        &:nth-child(16) {
+            grid-area: p;
+        }
+        &:nth-child(17) {
+            grid-area: q;
+        }
+        &:nth-child(18) {
+            grid-area: w;
+        }
+        &:nth-child(19) {
+            grid-area: s;
+        }
+        &:nth-child(20) {
+            grid-area: t;
+        }
+        &:nth-child(21) {
+            grid-area: u;
+        }
+    }
+}
+@media (max-width: 415px) {
+    header {
+        grid-gap: 2px;
+        grid-template-columns: repeat(6 1fr);
+        grid-template-rows: repeat(14 1fr);
+        grid-template-areas: 
+        "a b c c d d"
+        "e i k n w t"
+        "f f f f f f"
+        "f f f f f f"
+        "l l l l l l"
+        "g g g h h h" 
+        "g g g j j j"
+        "g g g m m m"
+        "p p p q q q" 
+        "p p p s s s"
+        "p p p u u u"
+        "o o o o o o"
+        "o o o o o o"
+        "o o o o o o";
+        
+    }
+}

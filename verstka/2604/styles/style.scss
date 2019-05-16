@@ -3,8 +3,8 @@ header {
     grid-gap: 5px;
     max-width: 1908px;
     height: 100vh;
-    grid-template-columns: repeat(12 1fr);
-    grid-template-rows: repeat(5 1fr);
+    // grid-template-columns: repeat(12 1fr);
+    // grid-template-rows: repeat(5 1fr);
     grid-template-areas: 
     "a b b b b c c c c d d d"
     "e f f f f f g g g h h h"

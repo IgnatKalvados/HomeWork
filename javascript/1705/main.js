@@ -1,15 +1,15 @@
 let n = +prompt("Цикл с for");
 let f = 1;
 for (f=1; n; f*=n--) {
-console.log(f);
+    console.log(f);
 }
 
 function factorial(n){
   let res = 1;  
-  while (n--) {
-      res *= n + 1  
-  return res;
-  }
+    while (n--) {
+        res *= n + 1  
+    }
+        return res;
 }
 
 let num =+prompt("Цикл с while");

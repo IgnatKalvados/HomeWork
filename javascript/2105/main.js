@@ -1,5 +1,5 @@
-let exemple_numbers = null;
-let exemple_string = null;
+let exemple_numbers = [];
+let exemple_string = [];
 
 let some_array = [
     "Пример строки",

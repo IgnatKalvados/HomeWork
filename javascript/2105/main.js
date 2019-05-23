@@ -18,7 +18,7 @@ for (i=0; i<arr.length; i++) {
         if (typeof(arr[i]) === "string") {
         answer[0].push(arr[i]);
         } 
-        if (typeof(arr[i]) === "number") {
+       else if (typeof(arr[i]) === "number") {
             answer[1].push(arr[i]);
         }
         

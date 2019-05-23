@@ -9,7 +9,7 @@ function factorial(n){
     while (n--) {
         res *= n + 1  
     }
-        return res;
+    return res;
 }
 
 let num =+prompt("Цикл с while");

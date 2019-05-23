@@ -1,24 +1,31 @@
-let exemple_numbers = [];
-let exemple_string = [];
 
-let some_array = [
+let answer = [
+ str=[],
+ num=[]
+];
+let arr = [
     "Пример строки",
     7,
-    [9, "вложенный массив", 18],
-    "Еще один пример",
+    " Еще один пример",
     24,
     12.7,
-    "28"
+    34,
+    47,
+    " hello"
 ];
 
-for (i=0; i<some_array.length; i++) {
-
-        if (typeof(some_array[i]) === String) {
-            exemple_string.push(some_array[i]);
+for (i=0; i<arr.length; i++) {    
+        if (typeof(arr[i]) === "string") {
+        answer[0].push(arr[i]);
         } 
-        else if (typeof(some_array[i]) === Number) {
-            exemple_numbers.push(some_array[i]);
+        if (typeof(arr[i]) === "number") {
+            answer[1].push(arr[i]);
         }
+        
 }
-console.log(exemple_string);
-console.log(exemple_numbers);
+
+document.write(str);
+document.write("</br>" + num);
+
+
+

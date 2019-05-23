@@ -13,27 +13,27 @@ let arr = [
     " hello"
 ];
 for (k=0; k<arr.length; k++) {
-    if (typeof(k) === "object")  {     
+    if (arr[k] === "object")  {     
         for (i=0; i<k.length; i++) {    
-                if (typeof(i) === "string") {
+                if ([i] === "string") {
                 answer[0].push(i);
                 } 
-                else if (typeof(i) === "number") {
+                else if ([i] === "number") {
                         answer[1].push(i);
                 }
                 
         }  
     }
-    else if (typeof(k) === "string") {
+    else if (arr[k] === "string") {
         answer[0].push(k);
         } 
-    else if (typeof(k) === "number") {
+    else if (arr[k] === "number") {
             answer[1].push(k);
         }
 }
 
-    document.write(answer[0]);
-    document.write("</br>" + answer[1]);
+    console.log(answer[0]);
+    console.log("</br>" + answer[1]);
 
 
 

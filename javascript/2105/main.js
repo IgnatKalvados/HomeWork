@@ -15,10 +15,10 @@ let arr = [
 for (k=0; k<arr.length; k++) {
     if (arr[k] === "object")  {     
         for (i=0; i<k.length; i++) {    
-                if ([i] === "string") {
+                if (arr[i] === "string") {
                 answer[0].push(i);
                 } 
-                else if ([i] === "number") {
+                else if (arr[i] === "number") {
                         answer[1].push(i);
                 }
                 

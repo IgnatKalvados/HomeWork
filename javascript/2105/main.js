@@ -1,8 +1,6 @@
 
-let answer = [
- str=[],
- num=[]
-];
+let answer = [ [], [] ];
+
 let arr = [
     "Пример строки",
     7,
@@ -15,14 +13,13 @@ let arr = [
     " hello"
 ];
 for (k=0; k<arr.length; k++) {
-    if (typeof(k) === "object")  { 
-    
+    if (typeof(k) === "object")  {     
         for (i=0; i<k.length; i++) {    
                 if (typeof(i) === "string") {
                 answer[0].push(i);
                 } 
-            else if (typeof(i) === "number") {
-                    answer[1].push(i);
+                else if (typeof(i) === "number") {
+                        answer[1].push(i);
                 }
                 
         }  
@@ -35,8 +32,8 @@ for (k=0; k<arr.length; k++) {
         }
 }
 
-    document.write(str);
-    document.write("</br>" + num);
+    document.write(answer[0]);
+    document.write("</br>" + answer[1]);
 
 
 

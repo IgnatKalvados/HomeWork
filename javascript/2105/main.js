@@ -11,23 +11,32 @@ let arr = [
     12.7,
     34,
     47,
+    "text",
     " hello"
 ];
 for (k=0; k<arr.length; k++) {
-    // let i = arr[k];
-    // for (i=0; i<k.length; i++) {    
-    //         if (typeof(i) === "string") {
-    //         answer[0].push(i);
-    //         } 
-    //     else if (typeof(i) === "number") {
-    //             answer[1].push(i);
-    //         }
-            
-    // } 
-    console.log(typeof(k.length-1));
+    if (typeof(k) === "object")  { 
+    
+        for (i=0; i<k.length; i++) {    
+                if (typeof(i) === "string") {
+                answer[0].push(i);
+                } 
+            else if (typeof(i) === "number") {
+                    answer[1].push(i);
+                }
+                
+        }  
+    }
+    else if (typeof(k) === "string") {
+        answer[0].push(k);
+        } 
+    else if (typeof(k) === "number") {
+            answer[1].push(k);
+        }
 }
-// document.write(str);
-// document.write("</br>" + num);
+
+    document.write(str);
+    document.write("</br>" + num);
 
 
 

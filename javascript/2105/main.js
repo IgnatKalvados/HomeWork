@@ -16,19 +16,19 @@ for (k=0; k<arr.length; k++) {
     if (arr[k] === "object")  {     
         for (i=0; i<k.length; i++) {    
                 if (arr[i] === "string") {
-                answer[0].push(i);
+                answer[0].push([i]);
                 } 
                 else if (arr[i] === "number") {
-                        answer[1].push(i);
+                        answer[1].push([i]);
                 }
                 
         }  
     }
     else if (arr[k] === "string") {
-        answer[0].push(k);
+        answer[0].push([k]);
         } 
     else if (arr[k] === "number") {
-            answer[1].push(k);
+            answer[1].push([k]);
         }
 }
 

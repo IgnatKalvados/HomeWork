@@ -1,0 +1,26 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.big {
+    display: block;
+    height: auto;
+    width: 200px;
+    border: 0.5px solid black;
+}
+.parents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 200px; 
+    box-sizing: border-box;
+    .child {
+        padding: 1px;
+        width: 20%;
+        height: auto;    
+        border: 0.5px solid black;
+        }   
+}

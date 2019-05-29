@@ -1,0 +1,38 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.big {
+  display: block;
+  height: auto;
+  width: 200px;
+  border: 0.5px solid black;
+}
+
+.parents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  width: 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.parents .child {
+  padding: 1px;
+  width: 20%;
+  height: auto;
+  border: 0.5px solid black;
+}
+/*# sourceMappingURL=style.css.map */

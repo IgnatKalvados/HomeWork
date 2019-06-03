@@ -18,8 +18,13 @@ reset.addEventListener('click', function () {
 
 
 function mult () {
-    for( i=0; i<arr.length; i++){
-    b = b*arr[i];
+    if (arr.length>0) {
+    for( i=0; i<arr.length; i++)
+    if(typeof arr[i]==="number")
+     b = b*arr[i];
+    }
+    else  {
+        b ="нет аргументов";
     }
 
     return b;

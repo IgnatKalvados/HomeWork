@@ -1,0 +1,180 @@
+
+body{
+    background: rgb(17, 160, 141); 
+}
+
+#container {
+    font-size: 120%;
+    color:#fff;
+    text-align: center;
+    top:100px;
+    right:-100px;
+    width: 205px;
+    height: 205px;
+    background: gray;
+    position: relative;
+}
+#b1 {
+    left:185px;
+    top:20px;
+   position: absolute;
+}
+#b2 {
+    left:160px;
+    top:50px;
+    position: absolute;
+}
+#b3 {
+    left:200px;
+    top:50px;
+    position: absolute;
+}
+#b4 {
+    left:180px;
+    top:80px;
+    position: absolute;
+}
+
+
+
+#box11 {
+
+    right:150px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box12 {
+    right:100px;
+    width: 45px;
+    height: 45px;
+    background: brown;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box13 {
+    right:50px;
+    width: 45px;
+    height: 45px;
+    background: green;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box14 {
+    right:0px;
+    width: 45px;
+    height: 45px;
+    background: red;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box21 {
+    top:50px;
+    right:150px;
+    width: 45px;
+    height: 45px;
+    background: red;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box22 {
+    top:50px;
+    right:100px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box23 {
+    top:50px;
+    right:50px;
+    width: 45px;
+    height: 45px;
+    background: black;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box24 {
+    top:50px;
+    right:0px;
+    width: 45px;
+    height: 45px;
+    background: cyan;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box31 {
+    top:100px;
+    right:150px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box32 {
+    top:100px;
+    right:100px;
+    width: 45px;
+    height: 45px;
+    background: brown;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box33 {
+    top:100px;
+    right:50px;
+    width: 45px;
+    height: 45px;
+    background: green;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box34 {
+    top:100px;
+    right:0px;
+    width: 45px;
+    height: 45px;
+    background: red;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box41 {
+    top:150px;
+    right:150px;
+    width: 45px;
+    height: 45px;
+    background: red;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box42 {
+    top:150px;
+    right:100px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box43 {
+    top:150px;
+    right:50px;
+    width: 45px;
+    height: 45px;
+    background: black;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}
+#box44 {
+    top:150px;
+    right:0px;
+    width: 45px;
+    height: 45px;
+    background: cyan;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+}

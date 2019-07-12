@@ -3,12 +3,11 @@ window.onload = function() {
   
    let box = ['box11', 'box12', 'box13', 'box14','box21', 'box22', 'box23', 'box24','box31', 'box32', 'box33', 'box34','box41', 'box42', 'box43', 'box44' ];
    let k=0;
-   for(k=0;k<box.length;k++)
-   {
+   for(k=0;k<box.length;k++){
+
      let b= document.getElementById(box[k]);
      b.innerHTML=" ";
-    b.style.backgroundColor = "#aaa";
-    
+    b.style.backgroundColor = "#aaa"; 
    }
    
    let r1=Math.floor((Math.random() * 15) + 1);
@@ -24,8 +23,8 @@ window.onload = function() {
       elem.style.backgroundColor="#f80"
    }
    
-   while(1)
-   {
+   while(1){
+      
    let r2=Math.floor((Math.random() * 15) + 1);
    let elem1= document.getElementById(box[r2 ]);
    if(elem1.textContent==" "){
@@ -68,8 +67,7 @@ window.onload = function() {
    
      }
    
-         function colour()
-        {
+         function colour(){
              let i=0;
              let ec= document.getElementById(box[i]); 
              for(;i<=15;i++)
@@ -132,7 +130,7 @@ window.onload = function() {
            let j=0;
            let l=0;
    
-           for( j=3;j>=0;j--){
+           for(let j=3;j>=0;j--){
                            
                        for( l=j;l<=j+12;l=l+4){
                        for( i=j;i<j+12;i=i+4){

@@ -20,7 +20,8 @@ const server = http.createServer((req, res) => {
             break   
     }
     fs.readFile(filePath, 'utf-8', (err, data) => {
-        if (err == 'ENOENT') {
+        if (err) {
+            res.writeHead(400, {'Content-type': contentType});
             res.end('404.html');
         }
         else {
